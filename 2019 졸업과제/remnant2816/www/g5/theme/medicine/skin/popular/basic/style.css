@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+/* 인기검색어 */
+#popular {clear:both;margin:0 auto;width:100%;text-align:left;height:51px;position:relative;padding:10px 0}
+#popular:after {display:block;visibility:hidden;clear:both;content:""}
+#popular h2 {display:inline-block;font-size:1em;color:#fff;background:#4b8bff;line-height:28px;border-radius:3px;padding:0 5px;border:1px solid #4b8bff;vertical-align:top}
+#popular .popular_inner {position:absolute;left:70px;top:2px;overflow:hidden}
+#popular ul {display:inline-block;margin-top:10px}
+#popular ul:after {display:block;visibility:hidden;clear:both;content:""}
+#popular li {height:28px;line-height:28px;padding:0 10px;float:left}
+#popular li:first-child {border-left:0}
+#popular li a {color:#fff}
